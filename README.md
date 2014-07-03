@@ -30,7 +30,7 @@ alias t="tmux new-session -s"
 These are the important parts of my tmux config. (Full version
 [here][tmux.conf]).
 
-```
+```tmux
 # tmux.conf
 
 # Smart pane switching with awareness of vim splits
@@ -54,3 +54,18 @@ set-option -g default-command "reattach-to-user-namespace -l bash"
 ```
 
 [tmux.conf]: https://github.com/ciarand/phoenix/tree/master/dotfiles/tmux.conf
+
+Other cool tmux references
+--------------------------
+### Thoughtbots
+
+- http://robots.thoughtbot.com/a-tmux-crash-course
+- http://robots.thoughtbot.com/tmux-copy-paste-on-os-x-a-better-future
+- http://robots.thoughtbot.com/use-rspec-vim-with-tmux-and-dispatch
+- http://robots.thoughtbot.com/seamlessly-navigate-vim-and-tmux-splits
+
+### Other references
+
+- https://www.braintreepayments.com/braintrust/vimux-simple-vim-and-tmux-integration
+- https://gist.github.com/MohamedAlaa/2961058
+- https://wiki.archlinux.org/index.php/Tmux
