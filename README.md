@@ -44,19 +44,7 @@ bind -n C-l run "(tmux display-message -p '#{pane_current_command}' | grep -iqE 
 # clear scrollback
 bind k send-keys -R \; clear-history \; send-keys Enter
 
-# make colors work
-set-option -g default-terminal screen-256color
-
-# titles for stuff I guess
-set-option -g set-titles on
-set-option -g set-titles-string '[#S:#I #H] #W'
-
-# start at 1 because 0 is on the right and that's dumb
-set -g base-index 1
-
-# vim mode keys
-setw -g mode-keys vi
-
+# source the mac os x specific conf file
 if-shell 'test "$(uname)" = "Darwin"' 'source ~/.tmux-osx.conf'
 ```
 
