@@ -1,5 +1,8 @@
-using tmux: a screencast
-------------------------
+[using tmux with vim: a screencast][video]
+------------------------------------------
+>tips on how to improve your efficiency using tmux and vim together. also a loud
+>keyboard?
+
 Notes from the video:
 
 These are the vim plugins I used:
@@ -53,8 +56,6 @@ if-shell 'test "$(uname)" = "Darwin"' 'source ~/.tmux-osx.conf'
 set-option -g default-command "reattach-to-user-namespace -l bash"
 ```
 
-[tmux.conf]: https://github.com/ciarand/phoenix/tree/master/dotfiles/tmux.conf
-
 Other cool tmux references
 --------------------------
 ### Thoughtbots
@@ -69,3 +70,6 @@ Other cool tmux references
 - https://www.braintreepayments.com/braintrust/vimux-simple-vim-and-tmux-integration
 - https://gist.github.com/MohamedAlaa/2961058
 - https://wiki.archlinux.org/index.php/Tmux
+
+[video]: https://www.youtube.com/watch?v=sUyVD5gTHfg
+[tmux.conf]: https://github.com/ciarand/phoenix/tree/master/dotfiles/tmux.conf
