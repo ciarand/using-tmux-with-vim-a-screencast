@@ -58,6 +58,7 @@ set-option -g default-command "reattach-to-user-namespace -l bash"
 
 Other cool tmux references
 --------------------------
+
 ### Thoughtbots
 
 - http://robots.thoughtbot.com/a-tmux-crash-course
@@ -67,6 +68,7 @@ Other cool tmux references
 
 ### Other references
 
+- http://pragprog.com/book/bhtmux/tmux
 - https://www.braintreepayments.com/braintrust/vimux-simple-vim-and-tmux-integration
 - https://gist.github.com/MohamedAlaa/2961058
 - https://wiki.archlinux.org/index.php/Tmux
