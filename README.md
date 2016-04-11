@@ -1,3 +1,5 @@
+This project is deprecated and unmaintained. Proceed with caution!
+
 [using tmux with vim: a screencast][video]
 ------------------------------------------
 >tips on how to improve your efficiency using tmux and vim together. also a loud
